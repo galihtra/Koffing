@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.button-primary {
+  @apply bg-primary text-white rounded-lg;
+}
+
+.toogle-primary {
+  @apply border bg-transparent border-gray-400 text-gray-400 rounded-2xl hover:text-white hover:bg-primary hover:border-transparent;
+}
